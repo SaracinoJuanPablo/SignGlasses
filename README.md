@@ -2,7 +2,6 @@
 
 ![SLDWORKS_31UnfFawhB](https://github.com/user-attachments/assets/54323b3b-f7d2-437a-94fc-e55f142b69c9)
 
-
 ## Proyecto de Ingeniería Mecatrónica
 ## Universidad Nacional de Lomas de Zamora 
 
@@ -11,6 +10,17 @@
   - Juan Pablo Saracino   
 
 **Año:** 2025
+
+---
+
+<p align="center">
+  <a href="https://youtu.be/apiW2C6Ag2o" target="_blank">
+    <img src="https://github.com/user-attachments/assets/2aeb6546-634a-4d0a-850a-d73e5e913bd3" alt="Ver video en YouTube" width="600" />
+  </a>
+</p>
+<p align="center">
+  <em>Haz clic en la imagen para ver el video de demostración.</em>
+</p>
 
 ---
 
@@ -36,7 +46,7 @@ El presente informe técnico expone el desarrollo e implementación de un sistem
 
 
 <p align="center">
-  <img width="1015" height="717" alt="photoview360_E2HUJiRA9J" src="https://github.com/user-attachments/assets/da05bcfc-b92f-49c5-a400-691ac0f0aeb5" />
+  <img width="600" alt="photoview360_E2HUJiRA9J" src="https://github.com/user-attachments/assets/da05bcfc-b92f-49c5-a400-691ac0f0aeb5" />
   <br>
   <em>Figura 1: Vista Isométrica SignGlasses Model 3 con las patillas cerradas</em>
 </p>
@@ -55,7 +65,7 @@ El prototipo desarrollado bajo el sistema SignGlasses presenta una doble funcion
 
 
 <p align="center">
-  <img width="537" height="343" alt="diagrama" src="https://github.com/user-attachments/assets/51741c08-e8b3-4e8e-b444-817e47f33175" />
+  <img width="600" alt="diagrama" src="https://github.com/user-attachments/assets/51741c08-e8b3-4e8e-b444-817e47f33175" />
   <br>
   <em>Figura 2: Diagrama de bloques a nivel macro del funcionamiento de las "SignGlasses"</em>
 </p>
@@ -70,6 +80,16 @@ Para la función de traducción LSA → Español, el sistema opera mediante el s
 4.	La etiqueta (label) resultante es asociada a un archivo de audio pregrabado correspondiente, el cual es retornado a la Raspberry Pi mediante el mismo canal de comunicación.
 5.	Finalmente, el audio es reproducido por el sistema de parlantes integrado en los lentes, permitiendo al usuario sordo expresarse de forma oral ante oyentes.
 
+<p align="center">
+  <a href="https://youtu.be/3oQ_PzZNqPo" target="_blank">
+    <img src="https://github.com/user-attachments/assets/4b84b8e3-d447-477e-9fac-59e0f6890d02" alt="Ver video en YouTube" width="600" />
+  </a>
+</p>
+<p align="center">
+  <em>Haz clic en la imagen para ver el video de demostración.</em>
+</p>
+
+
 **b) Transcripción de Español Oral a Subtítulos (Recepción):**
 
 De manera simultánea, para la función de transcripción Español oral → subtítulos, el flujo es el siguiente:
@@ -78,14 +98,26 @@ De manera simultánea, para la función de transcripción Español oral → subt
 3.	El audio es procesado por un modelo de reconocimiento de voz (speech-to-text), que convierte las señales sonoras en texto escrito.
 4.	El texto transcripto es reenviado a la Raspberry Pi, que lo direcciona al display OLED integrado en la montura, permitiendo al usuario visualizar subtítulos de la conversación en tiempo real.
 
+<p align="center">
+  <a href="https://youtu.be/kY1tsT7btso?si=v9qeF6G8RTMtALJ8" target="_blank">
+    <img src="https://github.com/user-attachments/assets/e4d5ff21-6ee8-407a-923b-a9245052dd78" alt="Ver video en YouTube" width="600" />
+  </a>
+</p>
+<p align="center">
+  <em>Haz clic en la imagen para ver el video de demostración.</em>
+</p>
+
 ### 2.3. Sincronización y Operación Simultánea
 Ambos procesos (traducción de señas y transcripción de voz) se ejecutan de forma paralela, gestionados por la Raspberry Pi como núcleo coordinador, brindando al usuario sordo la capacidad de participar activamente en cualquier interacción comunicativa, tanto emitiendo mensajes orales como recibiendo información visualmente a través de subtítulos.
 
 <p align="center">
-  <img width="523" height="237" alt="Imagen2" src="https://github.com/user-attachments/assets/64a7f7f2-229d-415f-8a2b-0fb6559f2b44" />
+  <img width="600" alt="image" src="https://github.com/user-attachments/assets/96a4b011-174f-47f0-824a-56743a7bd69e" />
   <br>
   <em>Figura 3: Esquema de operación simplificado del hardware</em>
 </p>
+
+
+
 
 ---
 
@@ -94,7 +126,7 @@ Ambos procesos (traducción de señas y transcripción de voz) se ejecutan de fo
 El proyecto SignGlasses tuvo su origen en el marco de la cátedra de Vigilancia Tecnológica e Inteligencia Competitiva, donde se elaboró un primer concepto orientado a la identificación de una necesidad concreta en materia de accesibilidad comunicacional. En esta etapa inicial, el enfoque fue exclusivamente esquemático, centrado en la conceptualización de los componentes clave del sistema, su lógica de funcionamiento y las posibles aplicaciones. No se contempló la implementación física del prototipo, pero esta fase resultó fundamental para definir los lineamientos técnicos y funcionales que guiaron el desarrollo posterior del dispositivo.
 
 <p align="center">
-  <img width="588" height="340" alt="Imagen3" src="https://github.com/user-attachments/assets/ad5a35c8-b2b8-45c3-989a-07aa445d1cb7" />
+  <img width="600" alt="Imagen3" src="https://github.com/user-attachments/assets/ad5a35c8-b2b8-45c3-989a-07aa445d1cb7" />
   <br>
   <em>Figura 4: Diseño conceptual para SignGlasses</em>
 </p>
@@ -106,7 +138,7 @@ El Model 3 representa la iteración más reciente y refinada tras un proceso de 
 - Inclusión de fichas de alimentación accesibles y estratégicamente ubicadas para mejorar la portabilidad y la autonomía del sistema.
 
 <p align="center">
-  <img width="1015" height="717" alt="photoview360_IQCb9ZApi0" src="https://github.com/user-attachments/assets/c9fbbb66-1602-4398-bb0d-5ff842e49552" />
+  <img width="600" alt="photoview360_IQCb9ZApi0" src="https://github.com/user-attachments/assets/c9fbbb66-1602-4398-bb0d-5ff842e49552" />
   <br>
   <em>Figura 5: Vista Isométrica de las SignGlasses Model 3</em>
 </p>
@@ -117,13 +149,13 @@ El Model 3 representa la iteración más reciente y refinada tras un proceso de 
 ### 4.1. Esquema de Conexión (Fritzing)
 
 <p align="center">
-  <img width="1342" height="578" alt="Imagen5" src="https://github.com/user-attachments/assets/916f8cef-a49a-456f-a9c1-284924cc80db" />
+  <img width="600" alt="Imagen5" src="https://github.com/user-attachments/assets/916f8cef-a49a-456f-a9c1-284924cc80db" />
   <br>
   <em>Figura 6: Conexionado de los pines de la Raspberry Pi Zero 2w a los diferentes componentes del proyecto</em>
 </p>
 
 <p align="center">
-  <img width="994" height="703" alt="WINWORD_vi7YMSpowL" src="https://github.com/user-attachments/assets/f398faed-e977-408f-91dd-c3399bc5a005" />
+  <img width="600" alt="WINWORD_vi7YMSpowL" src="https://github.com/user-attachments/assets/f398faed-e977-408f-91dd-c3399bc5a005" />
   <br>
   <em>Figura 7: Vista Isométrica explosionada con numeración de los componentes.</em>
 </p>
@@ -132,7 +164,7 @@ El Model 3 representa la iteración más reciente y refinada tras un proceso de 
 Para la captura de video de los gestos en LSA, se utilizó el sensor OMNIVISION OV5647 cuenta con CMOS de 5 megapíxeles, ampliamente compatible con plataformas de procesamiento como Raspberry Pi a través de interfaz CSI. La cámara cuenta con un lente tipo ojo de pez con una apertura de 130°, lo que permite un ángulo de visión ultra amplio, asegura la captación de gestos y movimientos corporales sin necesidad de reposicionar la cámara. 
 
 <p align="center">
-  <img width="532" height="532" alt="Imagen6" src="https://github.com/user-attachments/assets/34e71159-5077-464a-a1fb-661ce19e5f4a" />
+  <img width="600" alt="Imagen6" src="https://github.com/user-attachments/assets/34e71159-5077-464a-a1fb-661ce19e5f4a" />
   <br>
   <em>Figura 8: OV5647 imagen de catalogo</em>
 </p>
@@ -141,13 +173,13 @@ Para la captura de video de los gestos en LSA, se utilizó el sensor OMNIVISION 
 Para la reproducción de audio traducido (LSA - español) se empleó el módulo amplificador PAM8403, un amplificador de potencia clase D con una capacidad de salida de hasta 3W por canal en estéreo a 5V. El módulo integra un potenciómetro para el ajuste de volumen, permitiendo al usuario regular la intensidad del audio de salida según la intensidad a la cual quiere ser escuchado. Su elección se basó en su alta eficiencia energética, bajo nivel de distorsión armónica (THD), tamaño compacto y facilidad de integración directa con la Raspberry Pi.
 
 <p align="center">
-  <img width="1102" height="813" alt="Imagen7" src="https://github.com/user-attachments/assets/15b27c36-7dfa-4ade-80b5-71b58fbc21cb" />
+  <img width="600" alt="Imagen7" src="https://github.com/user-attachments/assets/15b27c36-7dfa-4ade-80b5-71b58fbc21cb" />
   <br>
   <em>Figura 9: Descripción de los pines y components del PAM8403</em>
 </p>
 
 <p align="center">
-  <img width="555" height="342" alt="Imagen8" src="https://github.com/user-attachments/assets/525c0ffb-1638-4f4b-813f-db2b2a39a5e1" />
+  <img width="600" alt="Imagen8" src="https://github.com/user-attachments/assets/525c0ffb-1638-4f4b-813f-db2b2a39a5e1" />
   <br>
   <em>Figura 10: Circuito esquemático electrónico para el preamplificador PAM8403</em>
 </p>
@@ -156,7 +188,7 @@ Para la reproducción de audio traducido (LSA - español) se empleó el módulo 
 La visualización del texto transcripto (Speech to Text) se realiza mediante la proyección de la pantalla OLED SSD1306 sobre un plástico reflectivo, cuya orientación es directa al ojo del usuario. Su tamaño es de 0.96 pulgadas, con una resolución de 128x64 píxeles y comunicación mediante protocolo I2C. La tecnología OLED permite un alto contraste con bajo consumo energético, ideal para visores compactos. Su pequeño tamaño contribuye a un diseño ergonómico y liviano, manteniendo una buena legibilidad incluso en entornos con alta luminosidad gracias al fondo negro característico de este tipo de pantallas. La facilidad de implementación mediante librerías ampliamente soportadas en Python fue otro factor determinante para su elección. Para versiones futuras se evalúa la incorporación de sistemas ópticos de proyección más avanzados, como microproyectores o pantallas transparentes.
 
 <p align="center">
-  <img width="541" height="541" alt="Imagen9" src="https://github.com/user-attachments/assets/6e76ab5b-122e-4d24-939c-758b9f8c08f2" />
+  <img width="600" alt="Imagen9" src="https://github.com/user-attachments/assets/6e76ab5b-122e-4d24-939c-758b9f8c08f2" />
   <br>
   <em>Figura 11: SSD1306 imagen de catálogo</em>
 </p>
@@ -165,7 +197,7 @@ La visualización del texto transcripto (Speech to Text) se realiza mediante la 
 Para la captura de audio se incorporó el micrófono digital INMP441, un sensor de tipo MEMS (Micro-Electro-Mechanical Systems) con salida digital mediante protocolo I2S, compatible directamente con la Raspberry Pi sin necesidad de conversores analógicos externos. Este micrófono es omnidireccional, permitiendo captar sonidos provenientes de cualquier dirección. Su bajo consumo, pequeño tamaño y alta sensibilidad lo convierten en una opción adecuada para aplicaciones portátiles como este prototipo. Las principales ventajas son su pequeño tamaño y costo.
 
 <p align="center">
-  <img width="350" height="193" alt="Imagen10" src="https://github.com/user-attachments/assets/1735a123-5065-4266-bbc1-030956870bf4" />
+  <img width="600" alt="Imagen10" src="https://github.com/user-attachments/assets/1735a123-5065-4266-bbc1-030956870bf4" />
   <br>
   <em>Figura 12: INMP441 imagen de catálogo</em>
 </p>
@@ -174,7 +206,7 @@ Para la captura de audio se incorporó el micrófono digital INMP441, un sensor 
 Como unidad principal de procesamiento se seleccionó la Raspberry Pi Zero 2 WH, una placa compacta que incorpora un procesador quad-core ARM Cortex-A53 a 1 GHz, 512 MB de RAM y conectividad Wi-Fi integrada. Con un precio competitivo se destaca por su excelente relación entre capacidad de procesamiento y consumo energético, soportando sistemas operativos completos basados en Linux. Su principal uso es la comunicación de los periféricos con la pc mediante la conexión USB y el transporte veloz de los datos para una respuesta en tiempo real. Sus interfaces nativas CSI (para cámara), I2C, SPI y GPIO facilitan la integración directa de los diferentes periféricos del sistema.
 
 <p align="center">
-  <img width="1284" height="522" alt="WINWORD_jAAKnYvIFy" src="https://github.com/user-attachments/assets/3844ba6e-194a-439f-90fe-b7e5f2c68d91" />
+  <img width="600" alt="WINWORD_jAAKnYvIFy" src="https://github.com/user-attachments/assets/3844ba6e-194a-439f-90fe-b7e5f2c68d91" />
   <br>
   <em>Figura 13: Distribución de pines I/0 de la Raspberry Pi Zero 2W</em>
 </p>
@@ -183,9 +215,18 @@ Como unidad principal de procesamiento se seleccionó la Raspberry Pi Zero 2 WH,
 Para la movilidad de la cámara se utilizó el servomotor SG90, un microservo compacto con un ángulo de rotación de aproximadamente 180°, controlado mediante señales PWM. Su bajo peso, tamaño reducido y bajo consumo de corriente lo hacen ideal para aplicaciones portátiles. En este proyecto, el SG90 es responsable de proporcionar un sistema básico de tracking (seguimiento) permitiendo ajustar la orientación de la cámara según el movimiento del usuario o de la seña, aumentando la efectividad del reconocimiento gestual.
 
 <p align="center">
-  <img width="1270" height="466" alt="image" src="https://github.com/user-attachments/assets/52203bda-44b8-43dc-9125-5cd3d314676d" />
+  <img width="600" alt="image" src="https://github.com/user-attachments/assets/52203bda-44b8-43dc-9125-5cd3d314676d" />
   <br>
   <em>Figura 14: SG90 Imagen de catálogo y composición interna</em>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/nMojdZaRgLU" target="_blank">
+    <img src="https://github.com/user-attachments/assets/cdc7c99b-c654-486e-a53a-385f582dbfc4" alt="Ver video en YouTube" width="600" />
+  </a>
+</p>
+<p align="center">
+  <em>Haz clic en la imagen para ver el video de la demostración del seguimiento de manos.</em>
 </p>
 
 ### 4.8. Análisis de Consumo de Energía y Conexionado
@@ -234,13 +275,13 @@ $$
 3.	Diagrama de Conexionado Simplificado:
 
 <p align="center">
-  <img width="545" height="248" alt="image" src="https://github.com/user-attachments/assets/98283316-856f-4f5f-8e57-45690aa2ec4f" />
+  <img width="600" alt="image" src="https://github.com/user-attachments/assets/98283316-856f-4f5f-8e57-45690aa2ec4f" />
   <br>
   <em>Figura 15: Diagrama de alimentación mediante Raspberry</em>
 </p>
 
 <p align="center">
-  <img width="344" height="294" alt="image" src="https://github.com/user-attachments/assets/62d9362c-06ee-462c-9580-0a5740a9231f" />
+  <img width="600" alt="image" src="https://github.com/user-attachments/assets/62d9362c-06ee-462c-9580-0a5740a9231f" />
   <br>
   <em>Figura 16: Diagrama de alimentación mediante fuente externa</em>
 </p>
@@ -279,13 +320,13 @@ Este módulo está diseñado para la gestión y entrenamiento del modelo de apre
 - Genera los gráficos de matriz de confusión del modelo y las métricas de entrenamiento que permiten validar el modelo entrenado.
 
 <p align="center">
-  <img width="1000" height="800" alt="confusion_matrix_20250602_112013" src="https://github.com/user-attachments/assets/39eb752c-5f5f-4b7f-b640-c95104828ba0" />
+  <img width="600" alt="confusion_matrix_20250602_112013" src="https://github.com/user-attachments/assets/39eb752c-5f5f-4b7f-b640-c95104828ba0" />
   <br>
   <em>Figura 17: Matriz de Confusion para el modelo actual de las SignGlasses</em>
 </p>
 
 <p align="center">
-  <img width="1200" height="500" alt="training_metrics_20250602_112013" src="https://github.com/user-attachments/assets/8ddbea82-61f4-4c51-be48-1e9972065a60" />
+  <img width="600" alt="training_metrics_20250602_112013" src="https://github.com/user-attachments/assets/8ddbea82-61f4-4c51-be48-1e9972065a60" />
   <br>
   <em>Figura 18: Metricas de Entrenamiento para la version actual de las SignGlasses</em>
 </p>
@@ -332,7 +373,7 @@ En este proyecto empleamos aprendizaje automático para traducir gestos de Lengu
 **Capa de Salida:** Finalmente, una capa de salida utiliza la activación Softmax para convertir las salidas lineales en un vector de probabilidades que suman 1, de donde se selecciona la clase de seña con mayor probabilidad. Su función es la de clasificar el texto. Cada neurona realiza cálculos como: salida = max(0,entrada * peso + sesgos)
 
 <p align="center">
-  <img width="586" height="115" alt="Imagen11" src="https://github.com/user-attachments/assets/db279902-6403-4673-9637-caf1c4773d53" />
+  <img width="600" alt="Imagen11" src="https://github.com/user-attachments/assets/db279902-6403-4673-9637-caf1c4773d53" />
   <br>
   <em>Figura 19: Arquitectura del modelo</em>
 </p>
@@ -341,7 +382,7 @@ En este proyecto empleamos aprendizaje automático para traducir gestos de Lengu
 En conjunto, el sistema transforma una secuencia de imágenes en tiempo real en un vector numérico, estandariza sus valores, los pasa por una red denominad feed forward entrenada para clasificación multiclase, y devuelve el nombre de la seña que tenga la mayor confianza o que es lo mismo, el mayor valor de probabilidad. Esa etiqueta se utiliza tanto para generar audio como para integrarse en la interfaz de los lentes, cerrando el ciclo y entregando la traducción en tiempo real.
 
 <p align="center">
-  <img width="416" height="227" alt="Imagen12" src="https://github.com/user-attachments/assets/710bb03d-558d-4dc1-81dc-73eb23c9b928" />
+  <img width="600" alt="Imagen12" src="https://github.com/user-attachments/assets/710bb03d-558d-4dc1-81dc-73eb23c9b928" />
   <br>
   <em>Figura 20: Representacion de una red neuronal tipo feed-forward</em>
 </p>
@@ -352,7 +393,7 @@ En conjunto, el sistema transforma una secuencia de imágenes en tiempo real en 
 Con el objetivo de validar el correcto funcionamiento del sistema SignGlasses en condiciones reales de uso, se llevaron a cabo una serie de ensayos experimentales. Los ensayos se realizaron en tres entornos diferenciados: dos de ellos en domicilios particulares, y un tercero en la Facultad de Ingeniería de la Universidad Nacional de Lomas de Zamora, con el fin de obtener resultados representativos bajo distintas condiciones ambientales.
 
 <p align="center">
-  <img width="1015" height="717" alt="photoview360_0SocJY1NoR" src="https://github.com/user-attachments/assets/b52b85b2-2c39-4f81-b2c8-ddf4c7bf4194" />
+  <img width="600" alt="photoview360_0SocJY1NoR" src="https://github.com/user-attachments/assets/b52b85b2-2c39-4f81-b2c8-ddf4c7bf4194" />
   <br>
   <em>Figura 21: Vista superior y con las patillas cerradas de las SignGlasses Model 3</em>
 </p>
@@ -438,7 +479,7 @@ Una regla habitual para pasar de prototipo a producto es considerar un factor mu
 A partir de los ensayos realizados y el análisis funcional del prototipo, se identificaron una serie de posibles mejoras técnicas destinadas a optimizar el rendimiento general del sistema SignGlasses. Estas mejoras abarcan aspectos de hardware, software, procesamiento, ergonomía y escalabilidad futura del dispositivo.
 
 <p align="center">
-  <img width="1015" height="717" alt="photoview360_l0Pu0s7PTx" src="https://github.com/user-attachments/assets/4259c911-e2c2-4929-99fe-5e475b805e64" />
+  <img width="600" alt="photoview360_l0Pu0s7PTx" src="https://github.com/user-attachments/assets/4259c911-e2c2-4929-99fe-5e475b805e64" />
   <br>
   <em>Figura 22: Vista trasera y explosionada de las SignGlasses Model 3</em>
 </p>
@@ -558,7 +599,7 @@ La implementación de estas mejoras permitirá establecer una hoja de ruta de ev
 Analizando el grado de avance alcanzado en el desarrollo del prototipo, se concluye que el sistema SignGlasses ha logrado satisfacer los objetivos técnicos planteados en la etapa inicial. El dispositivo demostró ser capaz de traducir correctamente un conjunto de al menos 20 señas distintas del Lenguaje de Señas Argentino (LSA), alcanzando un nivel de precisión del 93 % en condiciones controladas. 
 
 <p align="center">
-  <img width="1015" height="718" alt="photoview360_2VCX7lxVye" src="https://github.com/user-attachments/assets/c8af8251-fc45-4af6-8946-9b1cb355ef39" />
+  <img width="600" alt="photoview360_2VCX7lxVye" src="https://github.com/user-attachments/assets/c8af8251-fc45-4af6-8946-9b1cb355ef39" />
   <br>
   <em>Figura 23: Vista Superior de las SignGlasses Model 3</em>
 </p>
