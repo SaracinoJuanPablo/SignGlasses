@@ -2,6 +2,7 @@
 
 ![SLDWORKS_31UnfFawhB](https://github.com/user-attachments/assets/54323b3b-f7d2-437a-94fc-e55f142b69c9)
 
+[![](https://markdown-videos.deta.dev/youtube/NarBox1LkYc)](https://youtu.be/NarBox1LkYc)
 
 ## Proyecto de Ingeniería Mecatrónica
 ## Universidad Nacional de Lomas de Zamora 
@@ -187,6 +188,8 @@ Para la movilidad de la cámara se utilizó el servomotor SG90, un microservo co
   <br>
   <em>Figura 14: SG90 Imagen de catálogo y composición interna</em>
 </p>
+
+[![](https://markdown-videos.data.dev/youtube/nMojdZaRgLU)](https://youtu.be/nMojdZaRgLU)
 
 ### 4.8. Análisis de Consumo de Energía y Conexionado
 **1.	Componentes y Requisitos Eléctricos:**
